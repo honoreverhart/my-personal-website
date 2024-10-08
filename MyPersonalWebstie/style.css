@@ -1,0 +1,42 @@
+body {
+    background-color: darksalmon;
+}
+
+h1 {
+    color: black;
+    font-family: 'Lucida Handwriting';
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 5px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Courier';
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    background-color: blanchedalmond;
+}
+
+h4 {
+    color: black;
+    font-family: 'Courier';
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    background-color: blanchedalmond;
+}
+
+p {
+    font-family: 'Lucida Handwriting';
+    box-shadow: 2px 2px 5px;
+    background-color: blanchedalmond;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 5px;
+}
