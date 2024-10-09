@@ -29,7 +29,7 @@ h4 {
 }
 
 p {
-    font-family: 'Lucida Handwriting';
+    font: 'Courier';
     box-shadow: 2px 2px 5px;
     background-color: blanchedalmond;
 
@@ -37,6 +37,28 @@ p {
 
 img {
     display: block;
-    margin: auto;
+    margin: px;
     box-shadow: 2px 2px 5px;
+}
+
+div{
+    box-shadow: 2px 2px 5px;
+}
+.logo {
+
+    display: inline-table;
+    
+}
+
+.links {
+    flex: 1;
+    padding: 10px;
+    float:right;
+    ;
+}
+
+a {
+    display: inline-table;
+    padding: 8px;
+    color: black;
 }
