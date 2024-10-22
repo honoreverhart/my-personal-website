@@ -1,5 +1,6 @@
 body {
-    background-color: darksalmon;
+    background-color: darksalmon !important;
+    display: grid;
 }
 
 h1 {
@@ -8,6 +9,15 @@ h1 {
     display: flex;
     justify-content: center;
     box-shadow: 2px 2px 5px;
+
+
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    border: solid white;
+    box-sizing: 100%;
 }
 
 h2 {
@@ -35,30 +45,120 @@ p {
 
 }
 
+div img {
+    display: block;
+    margin: 60px;
+    box-shadow: 2px 2px 5px;
+    padding: 50px;
+    border: 1px solid blanchedalmond;
+    justify-content: flex-end;
+
+
+}
+
 img {
     display: block;
-    margin: px;
+    margin: 0px;
+    box-shadow: 2px 2px 5px;
+
+}
+
+div {
     box-shadow: 2px 2px 5px;
 }
 
-div{
-    box-shadow: 2px 2px 5px;
+
+/*.cross-logo{
+    width: 30%;
+    margin: 0px;
+    box-shadow: 0px 0px 0px;
+    padding: 0px;
 }
+*/
+
 .logo {
 
     display: inline-table;
-    
+    width:200px;
+
 }
 
 .links {
     flex: 1;
     padding: 10px;
-    float:right;
-    ;
+    width: 30%;
+    float: right;
+    text-align: flex-end;
+
 }
+
 
 a {
     display: inline-table;
     padding: 8px;
     color: black;
+}
+
+a:hover {
+    background-color: bisque;
+}
+
+
+form {
+    background-color: blanchedalmond;
+    display: grid;
+    justify-content: center;
+
+}
+
+.name:hover {
+    background-color: darksalmon;
+}
+
+.email:hover {
+    background-color: darksalmon;
+}
+
+.message:hover {
+    background-color: darksalmon;
+}
+
+.submit:hover {
+    background-color: darksalmon;
+}
+
+
+.arthur {
+    z-index: 1;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    bottom: 30px;
+
+}
+
+.estes {
+    z-index: 2;
+    position: relative;
+    left: -50px;
+    top: 70px;
+
+}
+
+.aspen {
+    z-index: 3;
+    position: relative;
+    left: -100px;
+    top: 0px;
+}
+
+#hover_effect {
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 4s;
+}
+
+#hover_effect:hover {
+    width: 300px;
+    height: 300px;
 }
